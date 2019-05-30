@@ -1,0 +1,23 @@
+<div id="header">
+	<div id="toolbar">
+		<div id="status">
+			<div id="status_left">
+				<span style="font-size:13px">欢迎您，<a style="margin-bottom:10px" href="/info">
+					<span id="username"></span>${sessionUserName}</a>&nbsp;&nbsp;<span style="color:#FFF">&nbsp;角色: ${roleName}&nbsp;</span>&nbsp;&nbsp;&nbsp;<a id="status_logout">注销</a>
+				</span>
+				</div>
+			<div id="status_right">&nbsp;</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="nav">
+		<ul class="role_menu_ul">
+			<li class="menu2" id="nav0"><a href="/index">首页</a></li>
+			<#if manageRole == 1> <li class="menu2" id="nav1"><a href="/manage" >实验室管理</a></li>
+			</#if>
+			<#if researchRole == 2> <li class="menu2" id="nav2"><a href="/research">科研管理</a></li>
+			</#if>
+			<li class="menu2 kgmmenu" id="nav3"><a href="/info" >个人中心</a></li>
+		</ul>
+	</div>
+</div>

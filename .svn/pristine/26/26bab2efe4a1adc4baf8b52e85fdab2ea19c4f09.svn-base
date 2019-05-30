@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>研究团队管理 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/adduser.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/userlist" class="col">研究团队管理</a>&nbsp;&gt;&nbsp;<font>用户新增编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>真实姓名：</td><td><input type="text" class="input-normal" id="name" name="model.name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>登录账号：</td><td><input type="text" class="input-normal account"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>登录密码：</td><td><input type="password" value="111111" class="input-normal" id="pwd"/><span id="reset">（默认密码为111111）</span></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>权限角色：</td><td id="role"></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+	
+</body>
+</html>

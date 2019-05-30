@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>首页图片 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/makeTable.js"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/indexpic.html.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<font>首页图片</font>
+					<strong class="fr"><a id="btn_add" class="add-icon">新增首页图片</a></strong></div>
+				<div class="conten-body">
+					<div class="box add-box mt5">
+							<div class="ptb10 h30">
+								<div class="fl mt2">
+									<input type="text" class="normal-input ml15 w200" id="name" placeholder="名称" />
+								</div>	
+								<div class="fl ml15">
+									<input type="button" class="btn normal-btn" id="btn_search" value="搜索"/>
+									<input type="button" class="btn normal-btn" id="btn_reset" value="重置"/>
+								</div>
+							</div>
+					</div>
+					<div class="table-wrap">
+					<div class="table-list" ></div>
+					<div class="table-footer clearfix">
+						<div class="fl table-info">
+							共有<span class="count-record">0</span>条记录，共<span class="count-page">1</span>页，当前是第<span class="cur-page">1</span>页
+						</div>
+					</div>
+					<div class="footer">
+						<div class="fr list-footer"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

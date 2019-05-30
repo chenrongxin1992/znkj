@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>规章制度 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/kindeditor.js" type="text/javascript"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/lang/zh_CN.js" type="text/javascript"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/plugins/code/prettify.js" type="text/javascript"></script>
+	<script src="/public/assets/manage/scripts/addrule.js" type="text/javascript" charset="UTF-8"></script>
+	<style type="text/css">
+		.upload{position: relative;overflow: hidden;color: #878787;padding: 0 15px;display: inline-block;height: 23px;line-height: 23px;}
+		#link{position: absolute;right: 0px;top: 0px;margin: 0px;opacity: 0;padding: 0px;vertical-align: baseline;cursor: pointer;}
+	</style>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/rule" class="col">规章制度</a>&nbsp;&gt;&nbsp;<font>规章制度新增编辑</font></div>
+				<div class="content-body">
+					<form action="/add/saveOrUpdateRegulations"   method="post" enctype="multipart/form-data" name="addform" class="addtable" id="addform">
+					<input type="hidden" name="model.id" id="modelid">
+					<input type="hidden" name="model.pdfname" id="pdfname">
+					<input type="hidden" name="model.pdf" 	  id="pdf">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">标题：</td><td><input type="text" class="input-normal" id="title" name="model.title"/></td>	</tr>
+								
+							<tr><td class="td_tex_right">PDF：</td><td><a class="upload normal-btn">上传<input type="file" id="link" name="uploadpdf"/></a><span class="tip"></span><div id="file"></div></td></tr>
+							<tr><td class="td_tex_right">内容：</td><td><textarea rows="5" cols="35" class="area" id="conten" name="model.content" ></textarea></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>专著登记 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/research/scripts/viewtreatise.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">科研管理</a>&nbsp;&gt;&nbsp;<a href="/research/treatise" class="col">专著登记登记</a>&nbsp;&gt;&nbsp;<font>查看专著信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">著作名称：</td><td><span class="span-normal" id="treatise_name" ></span></td></tr>
+							<tr><td class="td_tex_right">(英文)著作名称：</td><td><span  class="span-normal" id="etreatise_name" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">作者：</td><td><span class="span-normal" id="authors" ></span></td></tr>
+							<tr><td class="td_tex_right">出版社：</td><td><span class="span-normal" id="publish" ></span></td></tr>
+							<tr><td class="td_tex_right">出版社(英文)：</td><td><span class="span-normal" id="epublish" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">出版年份：</td><td><span class="span-normal" id="publishyear" ></span></td></tr>
+							<tr><td class="td_tex_right">出版地址：</td><td><span class="span-normal" id="publishaddr" ></span></td></tr>
+							<tr><td class="td_tex_right">出版地址(英文)：</td><td><span class="span-normal" id="epublishaddr" ></span></td></tr>
+							<tr><td class="td_tex_right">ISBN号码：</td><td><span  class="span-normal" id="isbn" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">页码：</td><td><span  class="span-normal" id="pagination" ></span></td></tr>
+							<tr><td class="td_tex_right">版本：</td><td><span  class="span-normal" id="versions" ></span></td></tr>
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）摘要：</td><td><span  class="span-normal" id="edigest" ></span></td></tr>
+							<tr><td class="td_tex_right">封面图片</td><td id="pic"><img id="pic_url" src=""></td></tr>
+							<tr><td class="td_tex_right">关联项目：</td><td><span  class="span-normal" id="connect_pro" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

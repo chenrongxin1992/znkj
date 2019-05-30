@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>仪器设备 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addequipment.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/committee" class="col">仪器设备</a>&nbsp;&gt;&nbsp;<font>仪器设备新增编辑</font></div>
+				<div class="content-body">
+					<form action="/add/uploadFile?type=equipment" method="post" name="addform" class="addtable" id="addform">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>名称：</td><td><input type="text" class="input-normal" id="name" name="model.name"/></td>	</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>价值（元）：</td><td><input type="text" class="input-normal" id="value" name="model.value"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>单位：</td><td><input type="text" class="input-normal" id="unit" name="model.unit"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>品牌：</td><td><input type="text" class="input-normal" id="brand" name="model.brand"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>型号：</td><td><input type="text" class="input-normal" id="model" name="model.model"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>设备编号：</td><td><input type="text" class="input-normal" id="number" name="model.number"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>负责人：</td><td><input type="text" class="input-normal" id="dutyman" name="model.dutyman"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>管理员：</td><td><input type="text" class="input-normal" id="manager" name="model.manager"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>设备照片：</td>
+								<td>
+									<input type="file" name="upfile" id="file" style="margin-left:8px;"/><input type="button" class="normal-btn" id="upload" value="上传"/>
+									<div class="img"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

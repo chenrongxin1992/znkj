@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>科研项目 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/My97DatePicker/WdatePicker.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/research/scripts/editproject.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/research/project" class="col">科研项目</a>&nbsp;&gt;&nbsp;<font>新增编辑科研项目</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>名称：</td><td><input type="text" class="input-normal" id="name" name="model.name" placeholder="填写中文名称"/><input type="text" class="input-normal" id="ename" name="model.ename" placeholder="fill in english name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>负责人：</td><td><input type="text" class="input-normal" id="principal" name="model.principal"/><input type="text" class="input-normal" id="eprincipal" name="model.eprincipal" placeholder="fill in english name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>参与人：</td><td><input type="text" class="input-normal" id="participant" name="model.participant"/><input type="text" class="input-normal" id="eparticipant" name="model.eparticipant" placeholder="fill in english name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>年份：</td><td><input type="text" class="input-normal" id="year" name="model.year"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>经费来源：</td><td><input type="text" class="input-normal" id="fundsource" name="model.fundsource"/><input type="text" class="input-normal" id="efundsource" name="model.efundsource" placeholder="fill in english name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>金额（万元）：</td><td><input type="text" class="input-normal" id="money" name="model.money"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>（开始）研究时间：</td><td><input type="text" class="input-normal" id="restimebegin" name="model.restimebegin" onClick="WdatePicker()"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>（结束）研究时间：</td><td><input type="text" class="input-normal" id="restimeend" name="model.restimeend" onClick="WdatePicker()"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>合同号：</td><td><input type="text" class="input-normal" id="contractno" name="model.contractno"/></td></tr>
+							<tr><td class="td_tex_right" rowspan="2"><b class="red">*</b>摘要：</td><td><textarea rows="5" cols="35" class="area" id="digest" name="model.digest" placeholder="填写中文摘要"></textarea></td></tr>
+							<tr><td><textarea rows="5" cols="35" class="area" id="edigest" name="model.edigest" placeholder="fill in english digest"></textarea></td></tr>
+							<tr>
+								<td class="td_tex_right">关联成果：</td>
+								<td><input type="button"  class="btn normal-btn" id="connect" value="关联"/>
+									<input type="hidden" id="achstr" name="achstrs" /><div id="showit" style="margin:8px 3px;"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

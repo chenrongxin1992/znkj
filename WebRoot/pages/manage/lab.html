@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>实验室 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/lab.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<font>实验室信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">实验室名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">英文名称：</td><td><span  class="span-normal" id="ename" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">创建时间：</td><td><span class="span-normal" id="createtime" ></span></td></tr>
+							<tr><td class="td_tex_right">介绍：</td><td ><span class="span-normal" id="description" ></span></td></tr>
+							<tr><td class="td_tex_right">英文介绍：</td><td><span class="span-normal" id="edescription" ></span></td></tr>
+							<tr><td class="td_tex_right">实验室照片：</td><td><span id="images" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="edit" value="编辑"/>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

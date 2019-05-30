@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>获奖登记 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/research/scripts/viewaward.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/manager_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">科研管理</a>&nbsp;&gt;&nbsp;<a href="/research/award" class="col">获奖登记</a>&nbsp;&gt;&nbsp;<font>查看获奖信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="thesis_name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）名称：</td><td><span  class="span-normal" id="ethesis_name" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">完成人：</td><td><span class="span-normal" id="authors" ></span></td></tr>
+							<tr><td class="td_tex_right">奖励名称：</td><td><span class="span-normal" id="awardname" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）奖励名称：</td><td><span  class="span-normal" id="eawardname" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">奖级类别：</td><td><span  class="span-normal" id="type" ></span></td></tr>
+							<tr><td class="td_tex_right">奖级等级：</td><td><span  class="span-normal" id="level" ></span></td></tr>
+							
+<!-- 							<tr><td class="td_tex_right">总人数：</td><td><span  class="span-normal" id="account" ></span></td></tr>
+							<tr><td class="td_tex_right">排名：</td><td><span  class="span-normal" id="ranking" ></span></td></tr> -->
+							
+							<tr><td class="td_tex_right">授予单位：</td><td><span class="span-normal" id="certigier" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）授予单位：</td><td><span  class="span-normal" id="ecertigier" ></span></td></tr>
+							<tr><td class="td_tex_right">授予年份：</td><td><span class="span-normal" id="year" ></span></td></tr>
+							<tr><td class="td_tex_right">关联人员：</td><td><span class="span-normal" id="relevance" ></span></td></tr>
+							<tr><td class="td_tex_right">关联项目：</td><td><span  class="span-normal" id="connect_pro" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

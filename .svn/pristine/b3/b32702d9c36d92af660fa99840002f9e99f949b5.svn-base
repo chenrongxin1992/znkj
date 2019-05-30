@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>学术海报 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewposter.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/poster" class="col">学术海报</a>&nbsp;&gt;&nbsp;<font>查看学术海报</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）名称：</td><td><span class="span-normal" id="ename" ></span></td></tr>
+							<!-- <tr><td class="td_tex_right">负责人：</td><td><span  class="span-normal" id="dutyman" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）负责人：</td><td><span  class="span-normal" id="edutyman" ></span></td></tr>
+							<tr><td class="td_tex_right">年份：</td><td><span  class="span-normal" id="year" ></span></td></tr>
+							<tr><td class="td_tex_right">经费来源：</td><td><span  class="span-normal" id="fundsource" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）经费来源：</td><td><span  class="span-normal" id="efundsource" ></span></td></tr> -->
+							<tr><td class="td_tex_right">时间：</td><td><span  class="span-normal" id="restime" ></span></td></tr> 
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文)摘要：</td><td><span  class="span-normal" id="edigest" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

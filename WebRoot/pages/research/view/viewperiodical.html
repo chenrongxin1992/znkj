@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>期刊论文 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/research/scripts/view_periodical.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/manager_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">科研管理</a>&nbsp;&gt;&nbsp;<a href="/research/periodical" class="col">期刊论文登记</a>&nbsp;&gt;&nbsp;<font>查看期刊论文</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">期刊名称：</td><td><span class="span-normal" id="periodical" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）期刊名称：</td><td><span  class="span-normal" id="eperiodical" ></span></td></tr>
+							<tr><td class="td_tex_right">论文名称：</td><td><span class="span-normal" id="thesis_name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）论文名称：</td><td><span  class="span-normal" id="ethesis_name" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">全部作者：</td><td><span class="span-normal" id="authors" ></span></td></tr>
+						<!-- 	<tr><td class="td_tex_right">通信作者：</td><td><span class="span-normal" id="cauthors" ></span></td></tr> -->
+							
+							<tr><td class="td_tex_right">出版年：</td><td><span class="span-normal" id="publishyear" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">状态：</td><td><span class="span-normal" id="mstatus" ></span></td></tr>
+							<tr><td class="td_tex_right">收录情况：</td><td><span class="span-normal" id="include" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">卷号：</td><td><span class="span-normal" id="reelnumber" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">期号：</td><td><span class="span-normal" id="issue" ></span></td></tr>
+							<tr><td class="td_tex_right">刊号：</td><td><span class="span-normal" id="issn" ></span></td></tr>
+							<tr><td class="td_tex_right">页码：</td><td><span  class="span-normal" id="pagination" ></span></td></tr>
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）摘要：</td><td><span  class="span-normal" id="edigest" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">全文链接：</td><td><span class="span-normal" id="pdfurl" ></span></td></tr>
+							<tr><td class="td_tex_right">关联人员：</td><td><span class="span-normal" id="relevance" ></span></td></tr>
+							<tr><td class="td_tex_right">关联项目：</td><td><span  class="span-normal" id="connect_pro" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

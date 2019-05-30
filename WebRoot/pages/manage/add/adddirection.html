@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>研究方向 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/kindeditor.js" type="text/javascript"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/lang/zh_CN.js" type="text/javascript"></script>
+  <script src="/public/assets/common/scripts/kindeditor-4.1.10/plugins/code/prettify.js" type="text/javascript"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/adddirection.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/direction" class="col">研究方向</a>&nbsp;&gt;&nbsp;<font>研究方向编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>名称：</td>
+								<td>
+									<input type="text" class="input-normal" id="name" name="model.name"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">英文名称：</td>
+								<td>
+									<input type="text" class="input-normal" id="ename" name="model.ename"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>内容：</td>
+								<td>
+									<textarea class="area" id="conten" name="model.content"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">英文内容：</td>
+								<td>
+									<textarea class="area" id="econtent" name="model.econtent"></textarea>
+								</td>
+							</tr>
+							<!-- <tr><td class="td_tex_right">关联研究团队：</td><td><input type="button"  class="btn normal-btn" id="connect" value="关联"/>
+								<input type="hidden" id="achstr" name="achstr" value=""/>
+								<div style="margin:10px;color:#656565;"><span>已关联的团队：</span><span id="steam"></span></div></td>
+							</tr> -->
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

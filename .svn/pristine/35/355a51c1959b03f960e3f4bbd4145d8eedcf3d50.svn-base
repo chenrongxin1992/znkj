@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>学术委员会 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewcommittee.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/committee" class="col">学术委员会</a>&nbsp;&gt;&nbsp;<font>查看学术委员会信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">姓名：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）姓名：</td><td><span class="span-normal" id="ename" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">任职：</td><td><span  class="span-normal" id="tenure" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）任职：</td><td><span  class="span-normal" id="etenure" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">职称：</td><td><span  class="span-normal" id="titles" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）职称：</td><td><span  class="span-normal" id="etitles" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">专业：</td><td><span  class="span-normal" id="profession" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）专业：</td><td><span  class="span-normal" id="eprofession" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">任期：</td><td><span class="span-normal" id="prefecture" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）任期：</td><td><span class="span-normal" id="eprefecture" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">工作单位：</td><td><span class="span-normal" id="workplace" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）工作单位：</td><td><span class="span-normal" id="eworkplace" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

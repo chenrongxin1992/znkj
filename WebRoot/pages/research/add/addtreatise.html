@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>专著登记 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/research/scripts/addtreatise.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/manager_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">科研管理</a>&nbsp;&gt;&nbsp;<a href="/research/thesis" class="col">专著登记</a>&nbsp;&gt;&nbsp;<font>新增编辑专著登记</font></div>
+				<div class="content-body">
+					<form action="/add/uploadTreatiseFile?type=treatise" method="post" name="addform" class="addtable" id="addform">
+					<table>
+						<tbody>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>专著名称：</td>
+								<td>
+									<input type="text" class="input-normal" id="name" name="model.name" placeholder="填写中文名称"/>
+									<input type="text" class="input-normal" id="ename" name="model.ename" placeholder="fill in english name"/>
+								</td>
+							</tr>
+							<tr>
+				                <td class="td_tex_right"><b style="color:red">*</b>全部作者：</td>
+				                <td id="author_list" class="list"></td>
+				            </tr>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>出版社：</td>
+								<td>
+									<input type="text" class="input-normal" id="publish" name="model.publish" placeholder="填写出版社名称"/>
+									<input type="text" class="input-normal" id="epublish" name="model.epublish" placeholder="fill in publish name"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>出版年份：</td>
+								<td>
+									<input type="text" class="input-normal" id="publishyear" name="model.publishyear" placeholder="填写专著出版的年份"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>出版地址：</td>
+								<td>
+									<input type="text" class="input-normal" id="publishaddr" name="model.publishaddr" placeholder="填写专著出版的地址"/>
+									<input type="text" class="input-normal" id="epublishaddr" name="model.epublishaddr" placeholder="fill in publish address"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>ISBN号码：</td>
+								<td>
+									<input type="text" class="input-normal" id="isbn" name="model.isbn" placeholder="填写专著的ISBN号码"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b style="color:red">*</b>页码：</td>
+								<td>
+									<input type="text" class="input-normal" id="pagination" name="model.pagination" placeholder="填写起始页码 - 终止页码"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">版本：</td>
+								<td>
+									<input type="text" class="input-normal" id="version" name="model.versions" />
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right" rowspan="2">摘要：</td>
+								<td>
+									<textarea rows="5" cols="35" class="area" id="digest" name="model.digest" placeholder="填写中文摘要"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea rows="5" cols="35" class="area" id="edigest" name="model.edigest" placeholder="fill in english digest"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">封面图片：</td>
+								<td>
+									<input type="file" name="imgFile" id="file" style="margin-left:8px;"/>
+									<input type="button" class="normal-btn" id="upload" value="上传图片"/>
+									<div class="img"></div>
+								</td>
+							</tr>
+              <tr>
+              	<td class="td_tex_right">关联项目：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_project" value="关联"/>
+									<input type="hidden" id="prostr" name="prostr" />
+									<div id="project_label" style="margin:8px 3px;"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

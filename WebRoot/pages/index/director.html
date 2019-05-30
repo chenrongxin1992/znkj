@@ -1,0 +1,27 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "lab" sub_index=1>
+
+<@header title='${L["lab-profile"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/jquery.simplePagination.js"></script>
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/index.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+  <article>
+    <div class="avatar">
+      <img src="${director.photo}">
+    </div>
+    <div class="intro">
+      <p class="name">${director.name}
+      <p>${director.introduction}
+    </div>
+  </article>
+</@body>
+
+<@footer />
+  

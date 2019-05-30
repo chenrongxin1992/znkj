@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://www.vcbm.org/2012-2/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>SBDMV 2014</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css">
+<link rel="stylesheet" id="jetpack-subscriptions-css" href="subscriptions.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-widgets-css" href="widgets.css" type="text/css" media="all">
+<link rel="stylesheet" id="sharedaddy-css" href="sharing.css" type="text/css" media="all">
+<link rel="stylesheet" id="slimbox2-css" href="slimbox2.css" type="text/css" media="screen">
+<link rel="stylesheet" id="eventticketingstyle-css" href="ticketing.css" type="text/css" media="all">
+<link href="other/nevi2.css" rel="stylesheet" type="text/css">
+<link href="other/nevi.css" rel="stylesheet" type="text/css">
+<link href="other/css.css" rel="stylesheet" type="text/css">
+<link href="other/css(1).css" rel="stylesheet" type="text/css">
+<meta name="generator" content="WordPress 3.9.1">
+
+<style type="text/css">
+s
+    #sidebar span.collapsing.pages {
+        border:0;
+        padding:0; 
+        margin:0; 
+        cursor:pointer;
+} 
+
+#sidebar li.widget_collapspage h2 span.sym {float:right;padding:0 .5em}
+#sidebar li.collapsing.pages a.self {font-weight:bold}
+#sidebar ul.collapsing.pages.list ul.collapsing.pages.list:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages {list-style-type:none}
+#sidebar ul.collapsing.pages.list li.collapsing.pages{
+       padding:0 0 0 1em;
+       text-indent:-1em;
+}
+#sidebar ul.collapsing.pages.list li.collapsing.pages.item:before {content: '\00BB \00A0' !important;} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages .sym {
+   cursor:pointer;
+   font-size:1.2em;
+   font-family:Monaco, 'Andale Mono', 'FreeMono', 'Courier new', 'Courier', monospace;
+    padding-right:5px;}
+    </style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #aaa; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="VCBM 2014">
+<meta property="og:url" content="http://www.vcbm.org/2012-2/">
+<meta property="og:description" content="Call for Papers Aims and Scope EG VCBM is a bi-annual event addressing state-of-the-art visual computing research with a strong focus on applications in biology and medicine. EG VCBM is unique, as ...">
+<meta property="article:published_time" content="2011-08-29T09:03:25+00:00">
+<meta property="article:modified_time" content="2014-05-09T11:02:40+00:00">
+<meta property="article:author" content="http://www.vcbm.org/news/author/ropinski/">
+<meta property="og:site_name" content="EG VCBM">
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg">
+<meta name="twitter:site" content="@jetpack">
+<meta name="twitter:card" content="summary">
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href=" saved_resource.css">
+		<link rel="stylesheet" type="text/css" id="gravatar-card-css" href=" hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href=" services.css">
+        <style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+        </style>
+        		 <script>
+<!--
+function init(){
+	if(window.localStorage){
+		localStorage.organizationAmount = parseInt(localStorage.organizationAmount)+1;
+	}
+}
+</script>
+        </head>
+
+<body class="page page-id-513 page-template-default custom-background" onload = "init()">
+<div id="wrapper" class="container">
+	
+      <div class="navbar navbar-inverse" role="navigation" style = "background:#000;">
+		<div id="masthead">
+			<div id="branding" role="banner"><img src=" banner.jpg" width="940" height="361" alt=""></div>
+			<!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="http://www.vcbm.org/2012-2/#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+      <!-- <div class="dropdown"> -->
+      <div class="navbar-collapse collapse" style="font-family:Times New Roman;font-size:15px";>
+        <ul class="nav navbar-nav">
+            <li id="nav-home" >
+              <a href="../SBDMV2014.htm" style="font-family:Times New Roman;font-size:15px";>Home</a>
+            </li>
+            <li class="active">
+              <a id="label-organization" role="button" data-toggle="dropdown" href="Organization.htm" style="font-family:Times New Roman;font-size:15px";>
+                Organization
+              </a>
+              <!--<ul class="dropdown-menu" role="menu" aria-labelledby="label-organization">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_organizers.html"> Organization Committee </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_pc.html"> Program Committee </a>
+                </li>
+              </ul>-->
+            </li>
+            <li>
+              <a id="label-calls" role="button" data-toggle="dropdown" href="Call.htm" style="font-family:Times New Roman;font-size:15px";>
+                Calls for Papers
+              </a>
+            </li>
+            <li>
+              <a id="label-program" role="button" data-toggle="dropdown" href="Program.htm" style="font-family:Times New Roman;font-size:15px";>
+                Program
+              </a>
+            </li>
+        </ul> <!-- /nav ul -->
+      </div> <!-- /navbar-collapse -->
+      <!-- </div> /dropdown -->
+    </div> <!-- /navbar -->
+
+</div><!-- #footer -->
+
+  <div class="container" style = "background:#666">
+    <div class="row row-offcanvas row-offcanvas-right">
+		     <div class="col-xs-12 col-sm-9">
+<!--         <p class="pull-right visible-xs">
+          <button type="button" class="btn btn-info btn-xs" data-toggle="offcanvas"> Show sidebar </button>
+        </p>< -- > <!-- /pull-right -->
+        <div id="main-body-text">
+          <h3 style="font-size: 1.8em; font-weight: bold"> Organization Committee </h3>
+		  <br>
+<h4 style="font-weight:bold"> Workshop Organizers </h4>
+<div class="list-group">
+<div class="list-group-item">
+<ul>
+ <li> <h5 >Qingquan Li, Shenzhen University</h5></li>
+  <li> <h5>Yang Yue, Shenzhen University</h5></li>
+    <li> <h5 >Guangzhong Sun, University of Science and Technology of China</h5></li>
+	 <li><h5 >Xing Xie, Microsoft Research Asia</h5></li>
+	 <div style ="font-size:14px">
+	 <br>
+<strong>Organizers:</strong><br><br>
+<strong>Dr. Qingquan Li</strong> is professor of 3S (GIS, GPS and remote sensing). He is the president of Shenzhen University, and the director of Shenzhen Key Laboratory of Spatial Smart Sensing and Services. Prof. Li was with the State Key Laboratory for Information Engineering in Surveying, Mapping and Remote Sensing, and the executive vice-president of Wuhan University. His research interests are GIS-T, three dimensional and dynamic data modeling, location-based services, ITS, and surveying engineering, etc. Prof. Li has published 4 books, around 400 papers, and owns about 20 patents in his research field.<br>
+<br>
+<strong>Dr. Yang Yue</strong>is Associate Professor with Shenzhen Key Laboratory of Spatial Smart Sensing and Services, Shenzhen University. Before moving to Shenzhen University, she was with the State Key Laboratory for Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, and the University of Hong Kong, respectively. Her research interests are mainly in the field of GIS and ITS, especially using floating car and mobile phone data to conduct spatial-temporal data mining and trajectory-based behavior analysis in urban and transport applications. She has around 40 peer-reviewed publications.<br>
+<br>
+<strong>Co-organizers:</strong><br>
+<strong>Dr. Guangzhong Sun</strong> is an associate professor in School of Computer Science and Technology, University of Science and Technology of China (USTC). He is a member of National High Performance Computing Center (Hefei). He got his Ph.D. in computer science at USTC in 2005. He worked as a visiting researcher in Microsoft Research Asia from October 2007 to August 2008 and from September 2010 to February 2011. He has published more than 40 papers, including papers in reputed journals and major international conferences. He is a senior member of IEEE and China Computer Federation (CCF). His research interests include data processing, parallel computing, and combinatorial algorithms.<br>
+<br>
+<strong>Dr. Xing Xie </strong>is currently a senior researcher in Microsoft Research Asia, and a guest Ph.D. advisor for the University of Science and Technology of China. He received his B.S. and Ph.D. degrees in Computer Science from the University of Science and Technology of China in 1996 and 2001, respectively. He joined Microsoft Research Asia in July 2001, working on spatial data mining, location based services, social networks and ubiquitous computing. During the past years, he has published over 140 referred journal and conference papers. He currently serves on the editorial boards of ACM Transactions on Intelligent Systems and Technology (TIST), Springer GeoInformatica, Elsevier Pervasive and Mobile Computing, Journal of Location Based Services, and Communications of the China Computer Federation (CCCF). In recent years, he was involved in the program or organizing committees of over 70 conferences and workshops. Especially, he initiated the LBSN workshop series and served as program co-chair of ACM UbiComp 2011 and program chair of the 8th Chinese Pervasive Computing Conference (PCC 2012). In Oct. 2009, he founded the SIGSPATIAL China chapter which was the first regional chapter of ACM SIGSPATIAL. He is a member of Joint Steering Committee of the UbiComp and Pervasive Conference Series. He is a senior member of ACM, the IEEE, and China Computer Federation (CCF).
+
+</div>
+
+</div>
+
+</div>
+<h4 style="font-weight:bold"> Local chair </h4>
+<div class="list-group">
+<div class="list-group-item">
+<ul>
+  <li><h5>Xing Zhang, Shenzhen University</h5></li>
+</div>
+</div>
+
+<h4 style="font-weight:bold"> Technical Program Committee </h4>
+<div class="list-group">
+<div class="list-group-item">
+<ul>
+  <li><h5>Feng Lu, Institute of Geographic Science and Natural Resources Research, Chinese Academy of Sciences</h5></li>
+  <li><h5 >Nicholas Yuan, Microsoft Research Asia</h5></li>
+   <li><h5 >Kevin Zheng, Queensland University</h5></li>
+   <li><h5>Yu Liu, Peking University</h5></li>
+   <li><h5>Gang Pan, Zhejiang University</h5></li>
+  <li><h5 >Zhixiang Fang, Wuhan University</h5></li>
+   <li><h5 >Xianfeng Huang, Wuhan University</h5></li>
+   <li><h5>Biyu Chen, Wuhan University</h5></li>
+   <li><h5>Kuien Liu, Institute of Software, Chinese Academy of Sciences</h5></li>
+  <li><h5 >Jiajie Xu, Suzhou University</h5></li>
+   <li><h5 >Shuo Shang, China University Of Petroleum (Beijing)</h5></li>
+   <li><h5>Rui Mao, Shenzhen University</h5></li>
+    <li><h5>Xing Zhang, Shenzhen University</h5></li>
+   <li><h5 >Wei Tu, Shenzhen University</h5></li>
+   <li><h5>Jianliang Xu, Hong Kong Baptist University</h5></li>
+    <li><h5>Weiwei Sun, Fudan University</h5>
+	 <li><h5>Qi Liu, University of Science and Technology of China</h5></li>
+</div>
+</div>
+
+
+</div>
+</div> <!-- /main-body-text -->
+ 
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="social">
+      <div class="list-group">
+             <div class="list-group-item">
+          <h4 class="sidebar-title"> Upcoming Key Dates </h4>
+		  <p style = "color:#FF0011">
+          <span style="font-weight: bold">Workshop dates: </span><br>
+          December 14, 2014
+		  </p>
+		<p>
+          <span style="font-weight: bold">Camera-ready deadline:</span><br>
+           October 24, 2014
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold"> Paper notification: </span><br>
+          October 10, 2014 
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold;color:#000011">Extended submission deadline:</span><br>
+		  <span>September 26, 2014</span><br>		  </p>
+		  
+		  <p>
+          <span style="font-weight: bold">Full paper submission for special issue: </span><br>
+          January 31, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Initial decision on full papers: </span><br>
+           March 15, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Final papers due for special issue: </span><br>
+           April 30, 2015
+		   </p>
+		  <p>
+          <span style="font-weight: bold">Final decisions on full papers:</span><br>
+           May 31, 2015
+          </p>
+        </div>
+        <div class="list-group-item">
+          <h4 class="sidebar-title not-show"> Sponsors </h4>
+        </div>
+      </div> <!-- /list-group -->
+      </div> <!-- /sidebar -->
+  </div> <!-- /container -->
+
+
+</body></html>
+
+            
+     
+
+         
+            
+            

@@ -1,0 +1,20 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "team" sub_index=0>
+
+<@header title='${L["research-team"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+<link href="/public/assets/index/style/team.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/jquery.simplePagination.js"></script>
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/index.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+	<div id="team_list" class="list-wrap"></div>
+</@body>
+
+<@footer />
+  

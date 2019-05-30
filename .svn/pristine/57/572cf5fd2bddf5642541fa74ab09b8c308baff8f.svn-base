@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quantico'), local('Quantico-Regular'), url(http://themes.googleusercontent.com/static/fonts/quantico/v3/RC4TVDxn85RHKNRvpYMc9PesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

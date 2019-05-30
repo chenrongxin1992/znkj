@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>论文登记 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/research/scripts/viewthesis.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/research/thesis" class="col">论文登记登记</a>&nbsp;&gt;&nbsp;<font>查看论文信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">论文名称：</td><td><span class="span-normal" id="thesis_name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）论文名称：</td><td><span  class="span-normal" id="ethesis_name" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">作者：</td><td><span class="span-normal" id="authors" ></span></td></tr>
+							<tr><td class="td_tex_right">指导老师：</td><td><span class="span-normal" id="tutor" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">年份：</td><td><span class="span-normal" id="publishyear" ></span></td></tr>
+							<tr><td class="td_tex_right">单位：</td><td><span class="span-normal" id="unit" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）单位：</td><td><span  class="span-normal" id="eunit" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">页数：</td><td><span  class="span-normal" id="pags" ></span></td></tr>
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）摘要：</td><td><span  class="span-normal" id="edigest" ></span></td></tr>
+							<tr><td class="td_tex_right">关联项目：</td><td><span  class="span-normal" id="connect_pro" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

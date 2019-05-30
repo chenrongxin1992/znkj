@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>仪器设备使用情况 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewuseequ.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/useequ" class="col">设备使用情况</a>&nbsp;&gt;&nbsp;<font>查看设备使用情况</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">设备名称：</td><td><span class="span-normal" id="equname" ></span></td></tr>
+							<tr><td class="td_tex_right">领用人：</td><td><span  class="span-normal" id="user" ></span></td></tr>
+							<tr><td class="td_tex_right">开始时间：</td><td><span  class="span-normal" id="begintime" ></span></td></tr>
+							<tr><td class="td_tex_right">结束时间：</td><td><span  class="span-normal" id="endtime" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

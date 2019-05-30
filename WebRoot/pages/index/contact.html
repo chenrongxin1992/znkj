@@ -1,0 +1,46 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "lab" sub_index=3>
+
+<@header title='${L["contact"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script type="text/javascript">
+  var BMap;
+</script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=FBad5da7586e0ebe46e6238fa32510ff"></script>
+<script src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/index.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+<section class="list contact-us">
+  <div class="b">
+    <table class="details">
+      <tbody>
+        <tr>
+            <th>${L["F_Dept"]}
+            <td>${L["contact_dpet_2"]}
+        <tr>
+          <th>${L["address"]}
+          <td>${L["company-address2"]}
+        <tr>
+          <th>${L["zip-code"]}
+          <td>518060
+        <tr>
+          <th>${L["tel"]}
+          <td>${L.telno}
+        <tr>
+          <th>${L["email"]}
+          <td>spatial@szu.edu.cn
+      </tbody>
+    </table>
+  </div>
+  <div id="lab_map"></div>
+</section>
+</@body>
+
+<@footer />
+  

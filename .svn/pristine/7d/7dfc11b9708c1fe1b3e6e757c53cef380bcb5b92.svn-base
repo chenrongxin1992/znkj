@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://www.vcbm.org/2012-2/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>SBDMV 2014</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css">
+<link rel="stylesheet" id="jetpack-subscriptions-css" href="subscriptions.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-widgets-css" href="widgets.css" type="text/css" media="all">
+<link rel="stylesheet" id="sharedaddy-css" href="sharing.css" type="text/css" media="all">
+<link rel="stylesheet" id="slimbox2-css" href="slimbox2.css" type="text/css" media="screen">
+<link rel="stylesheet" id="eventticketingstyle-css" href="ticketing.css" type="text/css" media="all">
+<link href="other/nevi2.css" rel="stylesheet" type="text/css">
+<link href="other/nevi.css" rel="stylesheet" type="text/css">
+<link href="other/css.css" rel="stylesheet" type="text/css">
+<link href="other/css(1).css" rel="stylesheet" type="text/css">
+<meta name="generator" content="WordPress 3.9.1">
+
+<style type="text/css">
+s
+    #sidebar span.collapsing.pages {
+        border:0;
+        padding:0; 
+        margin:0; 
+        cursor:pointer;
+} 
+
+#sidebar li.widget_collapspage h2 span.sym {float:right;padding:0 .5em}
+#sidebar li.collapsing.pages a.self {font-weight:bold}
+#sidebar ul.collapsing.pages.list ul.collapsing.pages.list:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages {list-style-type:none}
+#sidebar ul.collapsing.pages.list li.collapsing.pages{
+       padding:0 0 0 1em;
+       text-indent:-1em;
+}
+#sidebar ul.collapsing.pages.list li.collapsing.pages.item:before {content: '\00BB \00A0' !important;} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages .sym {
+   cursor:pointer;
+   font-size:1.2em;
+   font-family:Monaco, 'Andale Mono', 'FreeMono', 'Courier new', 'Courier', monospace;
+    padding-right:5px;}
+    </style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #aaa; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="VCBM 2014">
+<meta property="og:url" content="http://www.vcbm.org/2012-2/">
+<meta property="og:description" content="Call for Papers Aims and Scope EG VCBM is a bi-annual event addressing state-of-the-art visual computing research with a strong focus on applications in biology and medicine. EG VCBM is unique, as ...">
+<meta property="article:published_time" content="2011-08-29T09:03:25+00:00">
+<meta property="article:modified_time" content="2014-05-09T11:02:40+00:00">
+<meta property="article:author" content="http://www.vcbm.org/news/author/ropinski/">
+<meta property="og:site_name" content="EG VCBM">
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg">
+<meta name="twitter:site" content="@jetpack">
+<meta name="twitter:card" content="summary">
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href=" saved_resource.css">
+		<link rel="stylesheet" type="text/css" id="gravatar-card-css" href=" hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href=" services.css">
+        <style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+        </style>
+		 <script>
+<!--
+function init(){
+	if(window.localStorage){
+		localStorage.callAmount = parseInt(localStorage.callAmount)+1;
+	}
+}
+</script>
+        </head>
+
+<body class="page page-id-513 page-template-default custom-background" onload = "init()">
+<div id="wrapper" class="container">
+	
+      <div class="navbar navbar-inverse" role="navigation" style = "background:#000;">
+		<div id="masthead">
+			<div id="branding" role="banner"><img src=" banner.jpg" width="940" height="361" alt=""></div>
+			<!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="http://www.vcbm.org/2012-2/#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+      <!-- <div class="dropdown"> -->
+      <div class="navbar-collapse collapse" >
+       <ul class="nav navbar-nav">
+            <li id="nav-home" style="font-family:Times New Roman;font-size:15px";>
+              <a href="../SBDMV2014.htm">Home</a>
+            </li>
+            <li>
+              <a id="label-organization" role="button" data-toggle="dropdown" href="Organization.htm" style="font-family:Times New Roman;font-size:15px";>
+                Organization
+              </a>
+              <!--<ul class="dropdown-menu" role="menu" aria-labelledby="label-organization">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_organizers.html"> Organization Committee </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_pc.html"> Program Committee </a>
+                </li>
+              </ul>-->
+            </li>
+            <li class="active">
+              <a id="label-calls" role="button" data-toggle="dropdown" href="Call.htm" style="font-family:Times New Roman;font-size:15px";>
+                Calls for Papers
+              </a>
+            </li>
+            <li>
+              <a id="label-program" role="button" data-toggle="dropdown" href="Program.htm" style="font-family:Times New Roman;font-size:15px";>
+                Program
+              </a>
+            </li>
+        </ul> <!-- /nav ul -->
+       </div> <!-- /navbar-collapse -->
+      <!-- </div> /dropdown -->
+    </div> <!-- /navbar -->
+
+</div><!-- #footer -->
+
+  <div class="container" style = "background:#666">
+    <div class="row row-offcanvas row-offcanvas-right">
+	<div class="col-xs-12 col-sm-9">
+	       <div id="main-body-text">
+          <h3 style="font-size: 1.8em; font-weight: bold"> Call for Papers </h3>
+          <p>
+Existing concepts, theories, and methods for the spatial big data are facing many challenges, for instance, spatial big data storage, processing, analysis, mining and visualization. The value of spatial big data could not be fully achieved without data mining. And it has been realized that visualization is an effective means for not only presenting essential information in vast amounts of data but also driving big data analytics. This half-day workshop aims to serve as a platform to discuss the recent trends in spatial big data mining and visualization, for the purpose of intelligent spatial decision support. We invite the submission of original research contributions. All accepted papers will be included in the Workshop Proceedings published by the IEEE Computer Society Press that are indexed by EI. Outstanding papers will be invited to extend to full version for a SCI(E)-indexed journal, which is currently under contact.
+</p>
+
+<h4 style="font-weight:bold"> Topics of Interest </h4>
+
+<p>
+Topics of interest include, but are not limited to: <br/>
+<ul>
+  <li>Spatial big data processing</li>
+  <li>Spatial big data modeling</li>
+  <li>Spatial big data mining</li>
+  <li>Spatial data visualization approach</li>
+  <li>Spatial big data visual analytics</li>
+  <li>Geo-visual analytics for usability testing and exploring big data</li>
+  <li>Intelligent Spatial decision support</li>
+  <li>Geo-Social networks, crowd sourcing and public participatory spatial decision support</li>
+  <li>Data-intensive computing and computational intelligence for spatial decision support</li>
+</ul>
+</p>
+
+<h4 style="font-weight:bold"> Submission Guidelines </h4>
+
+<p>
+Manuscripts must be submitted electronically to the <strong><a href = "https://wi-lab.com/cyberchair/2014/icdm14/scripts/ws_submit.php">CyberChair Conference Management System</a></strong>. All papers submissions can be up to 8 pages in the IEEE 2-column format (please see <strong><a href = "http://icdm2014.sfu.ca/submission.html">http://icdm2014.sfu.ca/submission.html</a></strong>). They should be submitted via the online submission system. Each paper will be assigned to three reviewers for a peer review. All accepted papers will be included in the Workshop Proceedings published by the IEEE Computer Society Press that are indexed by EI. Outstanding papers will be invited to extend to full version for a SCI(E)-indexed journal, which is currently under contact.
+</p>
+
+<h4 style="font-weight:bold">Download call for papers [<strong><a href = "CFP.pdf">PDF</a></strong>]</h4> 
+
+
+
+<h4 style="font-weight:bold"> Important Dates </h4>
+
+<p>
+<ul>
+  <li style="text-decoration:line-through;color:#FF0011">Paper submission(1500 words): August 1, 2014</li>
+  <li>Paper submission(suggested lenght: 6 pages): September <span class="STYLE1">26</span>, 2014</li>
+  <li>Paper notification: October 10, 2014</li>
+  <li>Camera-ready deadline: October 24, 2014</li>
+  <li>Workshop dates: December 14, 2014</li>
+  <li>Full paper submission for special issue: January 31, 2015</li>
+  <li>Initial decision on full papers: March 15, 2015</li>
+  <li>Final papers due for special issue: April 30, 2015</li>
+  <li>Final decisions on full papers: May 31, 2015</li>
+</ul>
+</p>
+<br>
+		  <br>
+        </div> <!-- /main-body-text -->
+    
+</div>
+
+<!-- /main-body-text -->
+ 
+
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="social">
+      <div class="list-group">
+             <div class="list-group-item">
+          <h4 class="sidebar-title"> Upcoming Key Dates </h4>
+		  <p style = "color:#FF0011">
+          <span style="font-weight: bold">Workshop dates: </span><br>
+          December 14, 2014
+		  </p>
+		<p>
+          <span style="font-weight: bold">Camera-ready deadline:</span><br>
+           October 24, 2014
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold"> Paper notification: </span><br>
+          October 10, 2014 
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold;color:#000011">Extended submission deadline:</span><br>
+		  <span>September 26, 2014</span><br>		  </p>
+		  
+		  <p>
+          <span style="font-weight: bold">Full paper submission for special issue: </span><br>
+          January 31, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Initial decision on full papers: </span><br>
+           March 15, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Final papers due for special issue: </span><br>
+           April 30, 2015
+		   </p>
+		  <p>
+          <span style="font-weight: bold">Final decisions on full papers:</span><br>
+           May 31, 2015
+          </p>
+        </div>
+        <div class="list-group-item">
+          <h4 class="sidebar-title not-show"> Sponsors </h4>
+        </div>
+      </div> <!-- /list-group -->
+      </div> <!-- /sidebar -->
+    </div> <!-- /row row-offcanvas -->
+  </div> <!-- /container -->
+
+
+</body></html>
+
+            
+     
+
+         
+            
+            

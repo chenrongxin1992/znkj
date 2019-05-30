@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>开放基金 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewfund.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/fund" class="col">开放基金</a>&nbsp;&gt;&nbsp;<font>查看开放基金</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">题目：</td><td><span class="span-normal" id="title" ></span></td></tr>
+							<tr><td class="td_tex_right">姓名：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">单位：</td><td><span class="span-normal" id="unit" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">年度：</td><td><span class="span-normal" id="year" ></span></td></tr>
+							<tr><td class="td_tex_right">职称：</td><td><span class="span-normal" id="jobtitle" ></span></td></tr>
+							<tr><td class="td_tex_right">性别：</td><td><span class="span-normal" id="gender" ></span></td></tr>
+							<tr><td class="td_tex_right">身份证号：</td><td><span class="span-normal" id="idcard" ></span></td></tr>
+							<tr><td class="td_tex_right">手机：</td><td><span  class="span-normal" id="mphone" ></span></td></tr>
+							<tr><td class="td_tex_right">Email：</td><td><span  class="span-normal" id="email" ></span></td></tr>
+							<tr><td class="td_tex_right">QQ：</td><td><span  class="span-normal" id="qq" ></span></td></tr>
+							<tr><td class="td_tex_right">关键字：</td><td><span  class="span-normal" id="keyword" ></span></td></tr>
+							<tr><td class="td_tex_right">基金文档编号：</td><td><span  class="span-normal" id="fundnumber" ></span></td></tr>
+							<tr><td class="td_tex_right">资助方向：</td><td><span  class="span-normal" id="direction" ></span></td></tr>
+							<tr><td class="td_tex_right">是否获得资助：</td><td><span class="span-normal" id="issubsidize" ></span></td></tr>
+							<tr><td class="td_tex_right">资助金额：</td><td><span class="span-normal" id="sum" ></span></td></tr>
+							<tr><td class="td_tex_right">数据：</td><td><span class="span-normal" id="data" ></span></td></tr>
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">成果：</td><td><span  class="span-normal" id="achieve" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

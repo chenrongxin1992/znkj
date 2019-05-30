@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>设备使用情况 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/My97DatePicker/WdatePicker.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/adduseequ.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/useequ" class="col">设备使用情况</a>&nbsp;&gt;&nbsp;<font>设备使用记录新增编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>设备名称：</td>
+								<td>
+									<select id="equname" name="model.equid"></select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>领用人：</td>
+								<td>
+									<select id="user" name="model.userid"></select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>开始时间：</td><td><input type="text" class="input-normal" id="begintime" name="model.begintime" onClick="WdatePicker()"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>结束时间：</td><td><input type="text" class="input-normal" id="endtime" name="model.endtime" onClick="WdatePicker()"/></td></tr>
+						
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

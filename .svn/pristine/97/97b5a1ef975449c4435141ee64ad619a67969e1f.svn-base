@@ -1,0 +1,37 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "exchanges" sub_index=4>
+
+<@header title='${L["foundation"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/common/scripts/jquery.simplePagination.js"></script>
+<script src="/public/assets/index/scripts/foundation.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+	<div id="foundation-table"></div>
+  
+  <#--
+      万恶的需求
+      实验室网站修改意见-wu 2015/9/9
+  -->
+  <#if (fundfilelist?length > 0)>
+  <div class="file-list">
+    <div class="list-head">附件下载</div>
+    <ul>
+      <@times times=1>
+        <#list fundfilelist as item>
+          <li>
+            <p>附件${item_index + 1}.<a href="${item.url}" target="_blank">（${item.type}）${item.name}</a></p>
+        </#list>
+      </@times>
+    </ul>
+  </div>
+  </#if>
+</@body>
+
+<@footer />
+  

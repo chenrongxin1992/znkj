@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>学术委员会 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addcommittee.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/committee" class="col">学术委员会</a>&nbsp;&gt;&nbsp;<font>学术委员会编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>姓名：</td><td><input type="text" class="input-normal" id="name" name="model.name"/><input type="text" class="input-normal" id="ename" name="model.ename" placeholder="fill in english"/></td>	</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>任职：</td><td><input type="text" class="input-normal" id="tenure" name="model.tenure"/><input type="text" class="input-normal" id="etenure" name="model.etenure" placeholder="fill in english"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>职称：</td><td><input type="text" class="input-normal" id="titles" name="model.titles"/><input type="text" class="input-normal" id="etitles" name="model.etitles" placeholder="fill in english"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>专业：</td><td><input type="text" class="input-normal" id="profession" name="model.profession"/><input type="text" class="input-normal" id="eprofession" name="model.eprofession" placeholder="fill in english"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>任期：</td><td><input type="text" class="input-normal" id="prefecture" name="model.prefecture"/><input type="text" class="input-normal" id="eprefecture" name="model.eprefecture" placeholder="fill in english"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>工作单位：</td><td><input type="text" class="input-normal" id="workplace" name="model.workplace"/><input type="text" class="input-normal" id="eworkplace" name="model.eworkplace" placeholder="fill in english"/></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

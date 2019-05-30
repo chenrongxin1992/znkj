@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>会议论文 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/research/scripts/editconference.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/research/conference" class="col">会议论文登记</a>&nbsp;&gt;&nbsp;<font>新增编辑会议论文登记</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>会议名称：</td>
+								<td>
+									<input type="text" class="input-normal" id="periodical" name="model.periodical" placeholder="填写中文名称"/>
+									<input type="text" class="input-normal" id="eperiodical" name="model.eperiodical" placeholder="fill in english name"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>论文名称：</td>
+								<td>
+									<input type="text" class="input-normal" id="thesis_name" name="model.name" placeholder="填写中文名称"/>
+									<input type="text" class="input-normal" id="ethesis_name" name="model.ename" placeholder="fill in english name"/>
+								</td>
+							</tr>
+							<!-- <tr><td class="td_tex_right">全部作者：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_author" value="增加一个"/>
+									<div id="author_label"><div id="authorss"><select id="authors" class="authors" ></select></div></div>
+								</td>
+							</tr> -->
+							<tr>
+				                <td class="td_tex_right"><b class="red">*</b>全部作者：</td>
+				                <td id="author_list" class="list">
+				                </td>
+				             </tr>
+							<tr>
+							  <td class="td_tex_right"><b class="red">*</b>年份：</td>
+							  <td>
+							    <input type="text" class="input-normal" id="publishyear" name="model.publishyear"/>
+							  </td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>状态：</td>
+								<td>
+									<select id="mstatus" name="model.status">
+										<option value="已发表">已发表</option>
+										<option value="已接受未发表">已接受未发表</option>
+									</select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>收录情况：</td>
+								<td>
+									<select name="model.include"  id="include">
+					                    <option value="SCI">SCI</option>
+					                    <option value="SSCI">SSCI</option>
+					                    <option value="A&HCI">A&HCI</option>
+					                    <option value="EI">EI</option>
+					                    <option value="CPCI-S">CPCI-S</option>
+					                    <option value="CSSCI">CSSCI</option>
+					                    <option value="CSCD">CSCD</option>
+					                    <option value="中文核心">中文核心</option>
+					                    <option value="其它">其它</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+							  <td class="td_tex_right"><b class="red">*</b>会议地址：</td>
+							  <td>
+							  	<input type="text" class="input-normal" id="address" name="model.address"/>
+							  	<input type="text" class="input-normal" id="eaddress" name="model.eaddress" placeholder="fill in english name"/>
+							  </td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">页码：</td>
+								<td>
+									<input type="text" class="input-normal" id="pagination" name="model.pagination" placeholder="起始页码 - 终止页码" />
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right" rowspan="2"><b class="red">*</b>摘要：</td>
+								<td>
+									<textarea rows="5" cols="35" class="area" id="digest" name="model.digest" placeholder="填写中文摘要"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea rows="5" cols="35" class="area" id="edigest" name="model.edigest" placeholder="fill in english digest"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">全文链接：</td>
+								<td>
+									<input type="text" class="input-normal" id="pdfurl" name="model.pdfurl" placeholder="url链接" />
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">关联人员：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_relevance" value="增加一个"/>
+									<div id="relevance_label"></div>
+								</td>
+							</tr>
+              <tr>
+              	<td class="td_tex_right">关联项目：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_project" value="关联"/>
+									<input type="hidden" id="prostr" name="prostr" />
+									<div id="project_label" style="margin:8px 3px;"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

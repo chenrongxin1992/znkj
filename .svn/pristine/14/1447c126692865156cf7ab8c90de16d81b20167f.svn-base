@@ -1,0 +1,18 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "lab">
+
+<@header title="测试列表页 | 智能空间实验室" nav_index=nav_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/index.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=0>
+
+</@body>
+
+<@footer />
+  

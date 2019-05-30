@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>研究团队 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addteam.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/team" class="col">研究团队</a>&nbsp;&gt;&nbsp;<font>研究团队新增编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><input type="text" class="input-normal" id="name" name="model.name" placeholder="填写中文名称"/><input type="text" class="input-normal" id="ename" name="model.ename" placeholder="fill in english name"/></td>	</tr>
+							<tr><td class="td_tex_right">成员：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_author" value="增加一个"/>
+									<div id="author_label"><div id="authorss"><select id="authors" class="authors" ></select><input type="text" id="duty" class="input-normal duty" placeholder="填写队员职务"/></div></div>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right" rowspan="2">简介：</td><td><textarea rows="5" cols="35" class="area" id="intro" name="model.intro" placeholder="填写中文简介"></textarea></td></tr>
+							<tr><td><textarea rows="5" cols="35" class="area" id="eintro" name="model.eintro" placeholder="fill in english introduction"></textarea></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

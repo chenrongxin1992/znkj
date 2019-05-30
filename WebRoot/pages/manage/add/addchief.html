@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>实验室主任 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/jquery.Jcrop.min.css" rel="stylesheet" />
+	<link href="/public/assets/manage/style/addchief.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="/public/assets/common/scripts/kindeditor-4.1.10/kindeditor.js" type="text/javascript"></script>
+    <script src="/public/assets/common/scripts/kindeditor-4.1.10/lang/zh_CN.js" type="text/javascript"></script>
+    <script src="/public/assets/common/scripts/kindeditor-4.1.10/plugins/code/prettify.js" type="text/javascript"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/editchief.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/chief" class="col">实验室主任</a>&nbsp;&gt;&nbsp;<font>实验室主任信息新增编辑</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>姓名：</td><td><input type="text" class="input-normal" id="name" name="model.name"/></td>
+								<td rowspan="3" class="td-image" id="rowss">
+									<span id="photostyle"><img id="body_photo" src=""></span>
+									<input type="hidden" id="photo" name="model.photo" value="">
+									<span class="upload"><input id="changePhotoBtn" class="normal-btn" type="button" value="更换头像"></span>
+									<span class="tip">* 格式为.jpg .gif .png<br> 最佳尺寸：一寸照片</span>
+								</td></tr>
+								
+							<tr><td class="td_tex_right">英文姓名：</td><td><input type="text" class="input-normal" id="ename" name="model.ename"/></td></tr>
+							
+							<tr><td class="td_tex_right"><b class="red">*</b>任期：</td><td><input type="text" class="input-normal" id="tenure" name="model.tenure"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>简介：</td><td colspan="2"><textarea style="max-width: 480px;max-height:140px;" class="area" id="introduction" name="model.introduction" ></textarea></td></tr>
+							<tr><td class="td_tex_right">英文简介：</td><td colspan="2"><textarea class="area" id="eintroduction" name="model.eintroduction" ></textarea></td></tr>
+						
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+	<script type="text/javascript" src="/public/assets/common/scripts/jquery.jUploader-1.01.js"></script>
+	<script src="/public/assets/common/scripts/jquery.Jcrop.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/public/assets/common/scripts/modifyPhoto.js"></script>
+</body>
+</html>

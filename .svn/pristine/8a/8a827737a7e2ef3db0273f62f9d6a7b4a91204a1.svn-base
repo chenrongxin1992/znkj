@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>学术交流 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewacademic.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/academic" class="col">学术交流</a>&nbsp;&gt;&nbsp;<font>查看学术交流</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）名称：</td><td><span  class="span-normal" id="ename" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">类型：</td><td><span class="span-normal" id="type" ></span></td></tr>
+							<tr><td class="td_tex_right">参加人员：</td><td><span class="span-normal" id="joinman" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）参加人员：</td><td><span  class="span-normal" id="ejoinman" ></span></td></tr>
+							<tr><td class="td_tex_right">时间：</td><td><span class="span-normal" id="time" ></span></td></tr>
+							<tr><td class="td_tex_right">地点：</td><td><span class="span-normal" id="address" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）地点：</td><td><span  class="span-normal" id="eaddress" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">简介：</td><td><span  class="span-normal" id="intro" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）简介：</td><td><span  class="span-normal" id="eintro" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>成果展示 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewsoftware.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/news" class="col">成果展示</a>&nbsp;&gt;&nbsp;<font>查看成果展示</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）名称：</td><td><span class="span-normal" id="ename" ></span></td></tr>
+							<tr><td class="td_tex_right">介绍：</td><td><span  class="span-normal" id="introduce" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）介绍：</td><td><span  class="span-normal" id="eintroduce" ></span></td></tr>
+							<tr><td class="td_tex_right">网址：</td><td><span  class="span-normal" id="url" ></span></td></tr>
+							<tr><td class="td_tex_right">排序：</td><td><span  class="span-normal" id="sort" ></span></td></tr>
+							<tr><td class="td_tex_right">图片：</td><td><span id="images" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

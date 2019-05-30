@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>仪器设备 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/makeTable.js"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewequipment.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/equipment" class="col">仪器设备</a>&nbsp;&gt;&nbsp;<font>查看仪器设备</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">价值（元）：</td><td><span  class="span-normal" id="value" ></span></td></tr>
+							<tr><td class="td_tex_right">单位：</td><td><span  class="span-normal" id="unit" ></span></td></tr>
+							<tr><td class="td_tex_right">品牌：</td><td><span  class="span-normal" id="brand" ></span></td></tr>
+							<tr><td class="td_tex_right">型号：</td><td><span  class="span-normal" id="model" ></span></td></tr>
+							<tr><td class="td_tex_right">设备编号：</td><td><span  class="span-normal" id="number" ></span></td></tr>
+							<tr><td class="td_tex_right">负责人：</td><td><span  class="span-normal" id="dutyman" ></span></td></tr>
+							<tr><td class="td_tex_right">管理员：</td><td><span  class="span-normal" id="manager" ></span></td></tr>
+						  <tr><td class="td_tex_right">现领用人：</td><td><span class="span-normal" id="now" ></span></td></tr>
+						  <tr><td class="td_tex_right">设备照片：</td><td><span class="span-normal" id="pic" ></span></td></tr>
+						</tbody>
+					</table>
+							<h3 style="color: #525252;line-height: 26px;padding: 6px 0;letter-spacing: 2px;">历史领用记录：</h3>
+							<div class="table-wrap">
+								<div class="table-list" ></div>
+								<div class="table-footer clearfix">
+									<div class="fl table-info">
+										共有<span class="count-record">0</span>条记录，共<span class="count-page">1</span>页，当前是第<span class="cur-page">1</span>页
+									</div>
+								</div>
+								<div class="footer">
+									<div class="fr list-footer"></div>
+								</div>
+								<div class="clear"></div>
+							</div>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

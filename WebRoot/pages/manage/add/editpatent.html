@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>专利登记 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/research/scripts/editpatent.js" type="text/javascript" charset="UTF-8"></script>
+	<style type="text/css">
+	.certigier{
+		margin: 4px 0px 4px 8px;
+	}
+	</style>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/research/patent" class="col">专利登记</a>&nbsp;&gt;&nbsp;<font>新增编辑专利登记</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>名称：</td><td><input type="text" class="input-normal" id="thesis_name" name="model.name" placeholder="填写中文名称"/><input type="text" class="input-normal" id="ethesis_name" name="model.ename" placeholder="fill in english name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>完成人：</td>
+								<td id="author_list" class="list"></td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>专利类别：</td>
+								<td>
+									<select id="type" name="model.type">
+										<option value="发明专利">发明专利</option>
+										<option value="国外授权">国外授权</option>
+										<option value="外观设计">外观设计</option>
+										<option value="实用新型">实用新型</option>
+										<option value="软件著作">软件著作</option>
+										<option value="国际专利保护">国际专利保护</option>
+										<option value="其他">其他</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>国别：</td>
+								<td>
+									<input type="text" class="input-normal" id="country" name="model.country"/>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>专利名称：</td><td><input type="text" class="input-normal" id="patentname" name="model.patentname"/><input type="text" class="input-normal" id="epatentname" name="model.epatentname" placeholder="fill in english name"/></td></tr>
+							
+							<tr><td class="td_tex_right"><b class="red">*</b>专利状态：</td>
+								<td>
+									<select id="statu" name="model.status">
+										<option value="专利号">专利号</option>
+										<option value="申请号">申请号</option>
+									</select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>申请号/专利号：</td><td><input type="text" class="input-normal" id="patentno" name="model.patentno"/></td></tr>
+							
+							
+							<tr><td class="td_tex_right"><b class="red">*</b>授予单位：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_certigier" value="增加一个"/>
+									<div id="certigier_label">
+									</div>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>授予年份：</td><td><input type="text" class="input-normal" id="year" name="model.year"/></td></tr>
+							<tr><td class="td_tex_right">关联人员：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_relevance" value="增加一个"/>
+									<div id="relevance_label"></div>
+								</td>
+							</tr>
+              <tr>
+              	<td class="td_tex_right">关联项目：</td>
+								<td>
+									<input type="button" class="btn normal-btn" id="add_project" value="关联"/>
+									<input type="hidden" id="prostr" name="prostr" />
+									<div id="project_label" style="margin:8px 3px;"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

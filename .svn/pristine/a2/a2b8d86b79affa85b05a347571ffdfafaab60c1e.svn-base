@@ -1,0 +1,13 @@
+#datasource-url=jdbc\:mysql\://210.39.14.91\:3306/znkj?useUnicode\=true&characterEncoding\=utf-8
+#datasource-user=root
+#datasource-password=@Szu201
+
+
+#mysqlpath=/usr/local/mysql/bin/
+#address=localhost
+#databaseName=znkj
+#sqlpath=/public/attachment/sqlbackups/
+
+datasource-url=jdbc\:mysql\://172.31.71.47\:3306/znkj?useUnicode\=true&characterEncoding\=utf-8
+datasource-user=root
+datasource-password=123456

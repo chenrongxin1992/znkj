@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>密码修改 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/personal/scripts/pwdchange.js" type="text/javascript" charset="UTF-8"></script>
+<style>
+	tr{line-height:34px;}
+	
+	.change_content{
+		border-top:1px solid #ccc;
+		padding: 10px 18px 5px;
+	}
+</style>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/user_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="info" class="col">个人中心</a>&nbsp;&gt;&nbsp;<font>密码修改</font></div>
+				<div class="change_content">
+					<div style="margin:0 auto;width:600px;" class="addtable">
+						<table>
+						<tbody>
+							<tr><td class="td_tex_right">旧密码：</td><td><input type="password" id="old" class="input-normal" /></td></tr>
+							<tr><td class="td_tex_right">新密码：</td><td><input type="password" id="new" class="input-normal" /></td></tr>
+							<tr><td class="td_tex_right">确认密码：</td><td><input type="password" id="renew" class="input-normal" /></td></tr>
+						</tbody>
+					</table>
+					<div class="clear"></div>
+					<div>
+						<input type="button" class="normal-btn" id="submit" name="submit" value="提 交"  style="margin:20px auto;display:block;"/>
+					</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

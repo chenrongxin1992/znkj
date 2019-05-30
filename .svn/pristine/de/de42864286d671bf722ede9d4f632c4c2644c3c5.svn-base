@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://www.vcbm.org/2012-2/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>SBDMV 2014</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css">
+<link rel="stylesheet" id="jetpack-subscriptions-css" href="subscriptions.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-widgets-css" href="widgets.css" type="text/css" media="all">
+<link rel="stylesheet" id="sharedaddy-css" href="sharing.css" type="text/css" media="all">
+<link rel="stylesheet" id="slimbox2-css" href="slimbox2.css" type="text/css" media="screen">
+<link rel="stylesheet" id="eventticketingstyle-css" href="ticketing.css" type="text/css" media="all">
+<link href="other/nevi2.css" rel="stylesheet" type="text/css">
+<link href="other/nevi.css" rel="stylesheet" type="text/css">
+<link href="other/css.css" rel="stylesheet" type="text/css">
+<link href="other/css(1).css" rel="stylesheet" type="text/css">
+<meta name="generator" content="WordPress 3.9.1">
+
+<style type="text/css">
+s
+    #sidebar span.collapsing.pages {
+        border:0;
+        padding:0; 
+        margin:0; 
+        cursor:pointer;
+} 
+
+#sidebar li.widget_collapspage h2 span.sym {float:right;padding:0 .5em}
+#sidebar li.collapsing.pages a.self {font-weight:bold}
+#sidebar ul.collapsing.pages.list ul.collapsing.pages.list:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages:before {content:'';} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages {list-style-type:none}
+#sidebar ul.collapsing.pages.list li.collapsing.pages{
+       padding:0 0 0 1em;
+       text-indent:-1em;
+}
+#sidebar ul.collapsing.pages.list li.collapsing.pages.item:before {content: '\00BB \00A0' !important;} 
+#sidebar ul.collapsing.pages.list li.collapsing.pages .sym {
+   cursor:pointer;
+   font-size:1.2em;
+   font-family:Monaco, 'Andale Mono', 'FreeMono', 'Courier new', 'Courier', monospace;
+    padding-right:5px;}
+	
+.strongFont{
+font-weight:bold;
+}
+    </style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #aaa; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="VCBM 2014">
+<meta property="og:url" content="http://www.vcbm.org/2012-2/">
+<meta property="og:description" content="Call for Papers Aims and Scope EG VCBM is a bi-annual event addressing state-of-the-art visual computing research with a strong focus on applications in biology and medicine. EG VCBM is unique, as ...">
+<meta property="article:published_time" content="2011-08-29T09:03:25+00:00">
+<meta property="article:modified_time" content="2014-05-09T11:02:40+00:00">
+<meta property="article:author" content="http://www.vcbm.org/news/author/ropinski/">
+<meta property="og:site_name" content="EG VCBM">
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg">
+<meta name="twitter:site" content="@jetpack">
+<meta name="twitter:card" content="summary">
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href="saved_resource.css">
+		<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="services.css">
+        <style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+        </style>
+        </head>
+
+<body class="page page-id-513 page-template-default custom-background" onload = "init()">
+<div id="wrapper" class="container">
+	
+      <div class="navbar navbar-inverse" role="navigation" style = "background:#000;">
+		<div id="masthead">
+			<div id="branding" role="banner"><img src="banner.jpg" width="940" height="361" alt=""></div>
+			<!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="http://www.vcbm.org/2012-2/#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+      <!-- <div class="dropdown"> -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="nav-home" >
+              <a href="../SBDMV2014.htm"  style="font-family:Times New Roman;font-size:15px";>Home</a>
+            </li>
+            <li>
+               <a id="label-organization" role="button" data-toggle="dropdown" href="Organization.htm" style="font-family:Times New Roman;font-size:15px";>
+                Organization
+              </a>
+              <!--<ul class="dropdown-menu" role="menu" aria-labelledby="label-organization">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_organizers.html"> Organization Committee </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://icdm2014.sfu.ca/organization_pc.html"> Program Committee </a>
+                </li>
+              </ul>-->
+            </li>
+            <li>
+              <a id="label-calls" role="button" data-toggle="dropdown" href="Call.htm"  style="font-family:Times New Roman;font-size:15px";>
+                Calls for Papers
+              </a>
+            </li>
+            <li class="active">
+              <a id="label-program" role="button" data-toggle="dropdown" href="Program.htm"  style="font-family:Times New Roman;font-size:15px";>
+                Program
+              </a>
+            </li>
+        </ul> <!-- /nav ul -->
+      </div> <!-- /navbar-collapse -->
+      <!-- </div> /dropdown -->
+    </div> <!-- /navbar -->
+
+</div><!-- #footer -->
+
+  
+            <div class="container" style = "background:#666">
+    <div class="row row-offcanvas row-offcanvas-right">
+	<div class="col-xs-12 col-sm-9">
+	 <div id="main-body-text">
+	 <br>
+	 <ul>
+	
+	  <li><h4 style="font-weight: bold">Keynote speaker</h3></li>
+	  </ul>
+	   <div class="keynotes">
+	    <div class="row" style="height:345px;width: 95%;">
+     <div class="speakers space-spanner pull-left">
+	 <div style ="text-align: center;">
+    <img  alt="Prof. Wen Gao" src="image/paulhe.jpg"></div>
+    <strong style ="text-align: center;">Mr. Paul He</strong>
+    <p><span style="text-align:justify;
+      text-justify:distribute-all-lines;
+      text-align-last:justify;
+      -moz-text-align-last:justify;
+      -webkit-text-align-last:justify;">Mr. Paul He is a researcher at Tencent Social Network Group. He joined Tencent in 2009, and has been engaged in social network data mining-related projects since then. He focuses on user mobility analysis, location-based social network(LBSN), and machine learning, and his work has been applied on user significant places detection, QQ circle, friends/groups recommendation, and so on. 
+ </p>
+	<p><span class = "strongFont">Title:</span> Tencent Location based Social Network Analysis and Applications</p>
+	<p class = "strongFont">Abstract:</p><span style="text-align:justify;
+      text-justify:distribute-all-lines;
+      text-align-last:justify;
+      -moz-text-align-last:justify;
+      -webkit-text-align-last:justify;">Locations are links between the virtual world and the real world. Therefore, we are able to do data mining in the real world, by taking advantage of location based services and online social network data. In this talk, we describe the combination of Tencent large-scale social network and location based data, from which we reconstruct the real-world social network. Furthermore, based on this network, we apply machine learning to personalize users' profiles and recognize their status,  from which we detect their information and social needs to make recommendations.</span>
+	</div>
+    </div><!-- speakers -->
+   </div>
+   <br><br><br><br><br><br><br><br><br>
+	  <ul>
+	  <li><h4 style="font-weight: bold">Keynote speaker</h3></li>
+       </ul>
+		  <div class="keynotes">
+<div class="row"  style="height:345px;width: 96%;" >
+     <div class="speakers space-spanner pull-left" style="height:900px;width: 95%;" >
+	  <div style ="text-align: center;">
+    <img alt="Prof. Wen Gao" src="image/xiaoru.jpg"></div>
+    <strong style ="text-align: center;">Dr. Xiaoru Yuan</strong>
+    <p><span  style="text-align:justify;
+      text-justify:distribute-all-lines;
+      text-align-last:justify;
+      -moz-text-align-last:justify;
+      -webkit-text-align-last:justify;">Dr. Xiaoru Yuan is a faculty member in the School of Electronics Engineering and Computer Science and vice director of Information Science Center, at Peking University. He received Bachelor degrees in chemistry and law from Peking University, China, in 1997 and 1998, respectively. He received the Ph.D. degree in computer science in 2006, from the University of Minnesota at Twin Cities. His primary research interests are in the field of scientific visualization, information visualization and visual analytics. He has co-authored over 60 technical papers in IEEE Visualization, IEEE Information Visualization, IEEE TVCG, IEEE EuroVis, 
+	IEEE PacificVis and other major international visualization conference and journals. His co-authored work on high dynamic range volume visualization received the Best Application Paper Award at the IEEE Visualization 2005 conference. He and his student team won the award of Outstanding Situation Awareness in IEEE VAST Challenge 2013, and further won three major awards in IEEE VAST Challenge 2014. He served on the program committees of IEEE VIS, EuroVis, and IEEE PacificVis. He was the organization co-chair of IEEE PacificVis 2009, program chair of VINCI 2010. He founded ChinaVis conference in 2014 and served as the program co-chair. He also served on the editorial board of CCF journal of CAD&CG and Springer Journal of Visualization, and as a guest editor of IEEE TVCG and IEEE CG&A. He is a CCF outstanding member and the chair of CCF YOCSEF (2012-2013). For more information, see </span><a href="http://vis.pku.edu.cn/wiki" style="text-decoration:underline">http://vis.pku.edu.cn/wiki<span class="glyphicon glyphicon-home"></span></a>
+	</p>
+   <p><span class = "strongFont">Title:</span> Urban Big Data Visualization</p>
+	<p><span class = "strongFont">Abstract:</span></p><span style="text-align:justify;
+      text-justify:distribute-all-lines;
+      text-align-last:justify;
+      -moz-text-align-last:justify;
+      -webkit-text-align-last:justify;">Understanding the complex nature of activities in modern metropolitan regions are difficult due to the vast amount of data required for processing and analysis. Visualization provides essential accesses for users to comprehend such big data and gain insights, which is crucial for decision makers, political figures, as well as the general public. This talk will discuss visualization cases covering various types of urban data, including taxi GPS data, vehicle RFID data, subway IC card data, and social media data, and demonstrate how different data sets can be integrated for advanced visual analysis. With the assistant of properly designed visualization and interaction, both general pubic and experts can interactively conduct the data exploration, mental image construction, and insight discovery.
+    </div><!-- speakers -->
+   </div>
+   
+</div>
+</div>
+
+
+<br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br><br>
+		
+		  
+		  
+		  
+   
+<br><br>
+</div>
+
+
+
+<!-- /main-body-text -->
+ 
+
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="social">
+      <div class="list-group">
+             <div class="list-group-item">
+          <h4 class="sidebar-title"> Upcoming Key Dates </h4>
+		  <p style = "color:#FF0011">
+          <span style="font-weight: bold">Workshop dates: </span><br>
+          December 14, 2014
+		  </p>
+		<p>
+          <span style="font-weight: bold">Camera-ready deadline:</span><br>
+           October 24, 2014
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold"> Paper notification: </span><br>
+          October 10, 2014 
+          </p>
+		  
+		  <p>
+		  <span style="font-weight: bold;color:#000011">Extended submission deadline:</span><br>
+		  <span>September 26, 2014</span><br>		  </p>
+		  
+		  <p>
+          <span style="font-weight: bold">Full paper submission for special issue: </span><br>
+          January 31, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Initial decision on full papers: </span><br>
+           March 15, 2015
+		  </p>
+		  <p>
+          <span style="font-weight: bold">Final papers due for special issue: </span><br>
+           April 30, 2015
+		   </p>
+		  <p>
+          <span style="font-weight: bold">Final decisions on full papers:</span><br>
+           May 31, 2015
+          </p>
+        </div>
+        <div class="list-group-item">
+          <h4 class="sidebar-title not-show"> Sponsors </h4>
+        </div>
+      </div> <!-- /list-group -->
+      </div> <!-- /sidebar -->
+	  
+	  
+	  <table border="6" style="white-space: normal;
+line-height: normal;
+font-style: normal;
+color: -webkit-text;
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+align:center;
+width:96%;
+margin-left:18px">
+<caption style ="font-size:22px;padding-bottom: 10px;font-weight:bold;">Workshop Program</caption>
+<caption style="padding-bottom: 10px;text-align: right; font-weight:bold;font-size:15px">Location: InterContinental Hotel Shenzhen</caption>
+<tr>
+  <th colspan="3" style = "text-align:center; padding:15px;font-size:18px;">Sunday, 14 December 2014</th>
+</tr>
+<tr>
+  <td class="tableTd1">8:30~8:45</td>
+  <td class="tableTd2">Welcome address</td>
+  <td class="tableTd3">Prof. Qing-Quan Li<br>Shenzhen Univeristy</td>
+</tr>
+<tr>
+  <td class="tableTd1">8:45~9:15</td>
+  <td class="tableTd2">Keynote Speech: Tencent Location based Social Network Analysis and Applications</td>
+  <td class="tableTd3">Peng He<br>Tencent Holding Limited</td>
+</tr>
+<tr>
+  <td class="tableTd1">9:15~9:30</td>
+  <td class="tableTd2">Mapping the distribution of economy activity: a case study in Jiangsu Province (China) using large scale social network data</td>
+  <td class="tableTd3">Xiaomeng Chang, Guozhen Lu, Yang Yue and Qingquan Li<br> Wuhan University<br> Shenzhen University
+</td>
+</tr>
+<tr>
+  <td class="tableTd1">9:30~9:45</td>
+  <td class="tableTd2">A Novel Dummy-based Mechanism to Protect Privacy on Trajectories </td>
+  <td class="tableTd3">Xichen Wu and Guangzhong Sun<br> University of Science and Technology of China</td>
+</tr>
+<tr>
+  <td class="tableTd1">9:45~10:00</td>
+  <td class="tableTd2">Discretizing Numerical Attributes in Decision Tree for Big Data Analysis</td>
+  <td class="tableTd3">Yiqun Zhang and Yiu-ming Cheung<br> Hong Kong Baptist University</td>
+</tr>
+<tr>
+  <td class="tableTd1">10:00~10:30</td>
+  <td colspan="2" class="tableTd1">Coffee Break</td>
+</tr>
+<tr>
+  <td class="tableTd1">10:30~11:00</td>
+  <td class="tableTd2">Keynote Speech: Urban Big Data Visualization</td>
+  <td class="tableTd3">Xiaoru Yuan<br> Peking University</td>
+</tr>
+<tr>
+  <td class="tableTd1">11:00~11:15</td>
+  <td class="tableTd2">Real-time Dynamic Visualization Techniques for Massive Geospatial Data </td>
+  <td class="tableTd3">Yanan Zhou and Xiaodong Hu<br> Chinese Academy of Sciences</td>
+</tr>
+<tr>
+  <td class="tableTd1">11:15~11:30</td>
+  <td class="tableTd2">A Novel Disparity Refinement Method Based on Semi-Global Matching Algorithm</td>
+  <td class="tableTd3">Yuechao Xie, Siyu Zeng, and Long Chen<br> Sun Yat-sen University</td>
+</tr>
+<tr>
+  <td class="tableTd1">11:30~11:45</td>
+  <td class="tableTd2">Video Retrieval Methods Using Geographic Information in Windows Azure Cloud</td>
+  <td class="tableTd3">Zhigang Han, Yunfeng Kong, Fen Qin, and Pinde Fu<br> Henan University
+Environmental Systems Research Institute, Inc. Redlands
+</td>
+</tr>
+</table>
+<br><br>
+    </div> <!-- /row row-offcanvas -->
+	
+	
+	
+	
+  </div> <!-- /container -->
+
+ <script>
+<!--
+
+
+function init(){
+	if(window.localStorage){
+		localStorage.programAmount = parseInt(localStorage.programAmount)+1;
+	}
+}
+</script>
+   
+
+</body></html>
+  
+
+         
+            
+            
+     
+     
+
+
+         
+            
+            
+
+ 
+            
+     
+
+         
+            
+            

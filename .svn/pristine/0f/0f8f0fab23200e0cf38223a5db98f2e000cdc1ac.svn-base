@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>首页图片 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addindexpic.html.js" type="text/javascript" charset="UTF-8"></script>
+	<style type="text/css">
+		.upload{position: relative;overflow: hidden;color: #878787;padding: 0 15px;display: inline-block;height: 23px;line-height: 23px;}
+		#link{position: absolute;right: 0px;top: 0px;margin: 0px;opacity: 0;padding: 0px;vertical-align: baseline;cursor: pointer;}
+	</style>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/news" class="col">首页图片</a>&nbsp;&gt;&nbsp;<font>首页图片新增编辑</font></div>
+				<div class="content-body">
+					<form action="/add/saveOrUpdateIndexPic" method="post" enctype="multipart/form-data" id="addform" name="addform" class="addtable">
+					<input type="hidden" name="model.id" id="modelid">
+					<input type="hidden" name="model.pic" id="pic">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>上传首页图片：<br>(1100*375尺寸)</td><td><a class="upload normal-btn">上传<input type="file" id="link" name="upfile"/></a><span class="tip"></span><div id="file"></div></td></tr>
+							<tr><td class="td_tex_right"><b class="red"></b>描述：</td><td><textarea rows="5" cols="35" class="area" id="describe" name="model.describe"></textarea></td></tr>
+							<tr><td class="td_tex_right"><b class="red"></b>排序：</td><td><input type="text" class="input-normal" id="sort" name="model.sort"/></td></tr>
+							<!-- <tr><td class="td_tex_right"><b class="red"></b>点击跳转的网址：</td><td><input type="text" class="input-normal" id="url" name="model.url"/></td></tr> -->
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+	
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>附件管理 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addlink.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<font>添加网站链接</font>
+				</div>
+				<div class="content-body">
+					<form action="/add/uploadFile?type=website" method="post" enctype="multipart/form-data" id="addform" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>类别：</td>
+								<td>
+									<select class="normal-select" id="tname" name="model.type">
+										<option value="">--请选择--</option>
+										<option value="网站">网站</option>
+										<option value="微博">微博</option>
+										<option value="微信">微信</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>网站名称：</td>
+								<td>
+									<input type="text" placeholder="填写中文名称" name="model.name" class="normal-input sitename" />
+									<input type="text" placeholder="fill in english" name="model.ename" class="input-normal" id="ename"  />
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right">网站地址：</td>
+								<td>
+									<input type="text" placeholder="http://www.szu.edu.cn" name="model.url" class="normal-input siteurl" style="width:200px"/>
+									
+								</td>
+							</tr>
+							<tr>
+								<td class="td_tex_right"><b class="red">*</b>图标：<br>(90*40尺寸)</td>
+								<td><input type="file" id="icon_pic" name="upfile"/><a class="icon-upload normal-btn">上传</a>
+									<div class="icon-tip" style="margin-top: 5px;">
+									</div>
+								</td>
+							</tr>
+							<tr class="need-pic">
+								<td class="td_tex_right">二维码图片：<br>(150*150尺寸)</td>
+								<td><input type="file" id="code_pic" name="upfile"/><a class="code-upload normal-btn">上传</a>
+									<div class="code-tip" style="margin-top: 5px;">
+									</div>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>是否发布英文版：</td>
+								<td>
+									<select id="eshow" name="model.eshow">
+										<option value="1">是</option>
+										<option value="0">否</option>
+									</select>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="add_btn" value="保存"/>
+					</div>
+
+					<p class="m8 alert_warning">*注：类别为”网站“或”微博“时，不需上传二维码图片；类别为”微信“时，不需填写”网站地址“。</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

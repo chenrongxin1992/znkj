@@ -1,0 +1,19 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "research" sub_index=3>
+
+<@header title='${L["research"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+<link href="/public/assets/index/style/platform.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/platform.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+	<div id="platform"></div>
+</@body>
+
+<@footer />
+  

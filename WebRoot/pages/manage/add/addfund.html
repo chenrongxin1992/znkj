@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>开放基金 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/research/style/achievement.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/addfund.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/fund" class="col">开放基金</a>&nbsp;&gt;&nbsp;<font>新增编辑开放基金</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right"><b class="red">*</b>题目：</td><td><input type="text" class="input-normal" id="title" name="model.title"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>姓名：</td><td><input type="text" class="input-normal" id="name" name="model.name"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>单位：</td><td><input type="text" class="input-normal" id="unit" name="model.unit"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>年度：</td><td><input type="text" class="input-normal" id="year" name="model.year"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>职称：</td><td><input type="text" class="input-normal" id="jobtitle" name="model.jobtitle"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>性别：</td>
+								<td>
+									<select id="gender" name="model.gender">
+										<option value="1">男</option>
+										<option value="0">女</option>
+									</select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>身份证号：</td><td><input type="text" class="input-normal" id="idcard" name="model.idcard"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>手机：</td><td><input type="text" class="input-normal" id="mphone" name="model.mphone"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>Email：</td><td><input type="text" class="input-normal" id="email" name="model.email"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>QQ：</td><td><input type="text" class="input-normal" id="qq" name="model.qq"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>关键字：</td><td><input type="text" class="input-normal" id="keyword" name="model.keyword"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>基金文档编号：</td><td><input type="text" class="input-normal" id="fundnumber" name="model.fundnumber"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>资助方向：</td>
+								<td>
+									<select id="direction" name="model.direction">
+										<option value="海岸带">海岸带</option>
+										<option value="时空分析">时空分析</option>
+										<option value="多传感器">多传感器</option>
+									</select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>是否获得资助：</td>
+								<td>
+									<select id="issubsidize" name="model.issubsidize">
+										<option value="1">是</option>
+										<option value="0">否</option>
+									</select>
+								</td>
+							</tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>资助金额(万元)：</td><td><input type="text" class="input-normal" id="sum" name="model.sum"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>数据：</td><td><input type="text" class="input-normal" id="data" name="model.data"/></td></tr>
+							<tr><td class="td_tex_right"><b class="red">*</b>摘要：</td><td><textarea rows="5" cols="35" class="area" id="digest" name="model.digest"></textarea></td></tr>
+							<tr><td class="td_tex_right">关联成果：</td><td><input type="button"  class="btn normal-btn" id="connect" value="关联"/>
+							<input type="hidden" id="achstr" name="achstr" /><div id="showit" style="margin:8px;"></div></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="addvalue" value="保存"/>
+						<input type="button" class="btn normal-btn" id="resetvalue" value="重置"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

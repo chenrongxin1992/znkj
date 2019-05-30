@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台登陆 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/index/style/login.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/index/scripts/login.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body class="blue-body">
+	<div class="narrow-wrap">
+		<div class="narrow-top clearfix">
+			<div class="narrow-logo fl"></div>
+			<a href="#" style="display:none" class="narrow-top-r fr mt10">忘记密码？</a>
+		</div>
+		<div class="narrow-content box">
+			<div class="narrow-login">
+				<form id="login_form" >
+					<div class="item">
+						<div class="w-inp clearfix">
+							<label class="placeholder" for="username">登录账号</label>
+							<input type="text" name="username" class="text" maxlength="18" autocomplete="off" />
+						</div>
+						<p id="login_fail" class="w-err" style="display: none;"></p>
+					</div>
+					<div class="item">
+						<div class="w-inp clearfix">
+							<label class="placeholder" for="password">密码</label>
+							<input type="password" name="password" class="text" />
+						</div>
+					</div>
+					<div class="item validecode-wrap">
+						<div class="w-inp clearfix">
+							<label class="placeholder" for="validecode">验证码</label>
+							<input type="text" name="validecode" class="text" autocomplete="off" maxlength="4" />
+							<a href="javascript:" id="change_code" class="fl"><img src="/vcode" /></a>
+							<a href="javascript:" id="change_code_text" class="fl">换一张</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="javascript:" id="post_login">立即登录</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="clear"></div>
+		<div class="footer">
+			<div id="copyright">
+				<p>Copyright&nbsp;©&nbsp;2014&nbsp;&nbsp;深圳大学&nbsp;空间信息智能感知与服务重点实验室&nbsp;&nbsp;All&nbsp;rights&nbsp;reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

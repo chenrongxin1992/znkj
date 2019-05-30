@@ -1,0 +1,38 @@
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<body onload="init()">
+<script>
+<!--
+function saveCount(value1,value2,value3,value4){
+	
+	if(window.localStorage){
+		alert("yes");
+		localStorage.homeAmounts = value1;
+		localStorage.organizationAmount = value2;
+		localStorage.callAmount = value3;
+		localStorage.programAmount = value4;
+	}
+	else alert("no");
+}
+
+function init(){
+	 saveCount(0,0,0,0);
+}
+
+function showAmount(){
+	alert(localStorage.homeAmounts);
+	document.getElementById("homeAmount").innerHTML = localStorage.homeAmounts;
+	document.getElementById("organizationAmount").innerHTML = localStorage.organizationAmount;
+	document.getElementById("callAmount").innerHTML = localStorage.callAmount;
+	document.getElementById("programAmount").innerHTML = localStorage.programAmount;
+}
+</script>
+<div id = "showAmount">
+<ul>
+<li>Home:<span id = "homeAmount"></li>
+<li>Organization:<span id = "organizationAmount"></li>
+<li>calls for paper:<span id = "callAmount"></li>
+<li>Program:<span id = "programAmount"></li>
+</ul>
+<div>
+</body>
+</html>

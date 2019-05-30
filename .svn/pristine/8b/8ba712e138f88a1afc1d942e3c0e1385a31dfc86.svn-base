@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>实验室主任 | 智能空间实验室</title>
+<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/viewchief.js" type="text/javascript" charset="UTF-8"></script>
+<style type="text/css">
+	.td-image {width: 165px;background-color: #f2f2f2;position: relative;}
+	#photostyle {margin: 8px;	display: block;	width: 150px;}
+	#body_photo {height: 220px;padding: 0;vertical-align: middle;width: 150px;}
+	.td_tex_right {width:150px;}
+</style>
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="lab" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<a href="/manage/chief" class="col">实验室主任</a>&nbsp;&gt;&nbsp;<font>实验室主任信息</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">姓名：</td><td><span class="span-normal" id="name" ></span></td>
+								<td rowspan="3" class="td-image" id="rowss"><span id="photostyle"><img id="body_photo" src="111"></span></td>
+							</tr>
+							<tr><td class="td_tex_right">（英文）姓名：</td><td><span  class="span-normal" id="ename" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">任期：</td><td><span class="span-normal" id="tenure" ></span></td></tr>
+							<tr><td class="td_tex_right">简介：</td><td style="padding:6px;" colspan="2"><span class="span-normal" id="introduction" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）简介：</td><td style="padding:6px;" colspan="2"><span  class="span-normal" id="eintroduction" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="edit" value="编辑"/>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

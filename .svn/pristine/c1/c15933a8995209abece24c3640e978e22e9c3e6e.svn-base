@@ -1,0 +1,109 @@
+
+<#include "/pages/common/common.ftl" >
+
+<@header title='${L["index"]} | ${L["site-title"]}'>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/slidesjs/source/jquery.slides.js"></script>
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/index/scripts/index.js"></script>
+</@header>
+
+<@body>
+<section class="banner" id="banner_slides">
+  <#list piclist as banner>
+    <img src="${banner.pic}" title="${banner.describe}">
+  </#list>
+</section>
+
+<div class="wrap list-wrap first-row">
+  <section class="list achievements-list">
+    <div class="h clearfix">
+      <div class="t">${L["achievements"]}</div>
+      <div class="o">
+      </div>
+    </div>
+    <div class="b">
+      <ul class="achievements clearfix">
+        <#list achlist as item>
+        <#if item_index % 3 == 0>
+        <li class="list-page">
+        </#if>
+          <div class="item">
+           <a class="cover" href="${item.url}"><img src="${item.pic}" title="${item.name}" alt="${item.name}"></a>
+           <p class="title"><a class="link" href="${item.url}" title="${item.name}">${item.name}</a>
+           <p class="text-gray">${item.type}
+          </div>
+        </#list>
+      </ul>
+    </div>
+  </section>
+  
+  <section class="list notice-list">
+    <div class="h clearfix">
+      <div class="t">${L["notice"]}</div>
+      <div class="o">
+        <a href="/notice" class="link link-gray" title='${L["view-all"]}'>${L["view-all"]}&gt;</a>
+      </div>
+    </div>
+    <div class="b">
+      <ul>
+        <#list noticelist as item>
+        <li>·<a class="link" href="/notice_details?id=${item.id}" title="${item.title}">${item.title}</a>
+        </#list>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<div class="wrap list-wrap">
+  <section class="list news-list">
+    <div class="h clearfix">
+      <div class="t">${L["news"]}</div>
+      <div class="o">
+        <a href="/news" class="link link-gray" title='${L["view-all"]}'>${L["view-all"]}&gt;</a>
+      </div>
+    </div>
+    <div class="b">
+      <ul class="news">
+        <#list newslist as item>
+        <li class="clearfix"><i>${item_index+1}</i>
+          <a href="/news_details?id=${item.id}" class="link" title="${item.title}">${item.title}</a>
+          <span>${item.time}</span>
+        </#list>
+      </ul>
+    </div>
+  </section>
+  
+  <section class="list contact-list">
+    <div class="h clearfix">
+      <div class="t">${L["contact"]}</div>
+      <div class="o">
+        <a href="/contact" class="link link-gray" title='${L["view-details"]}'>${L["view-details"]}&gt;</a>
+      </div>
+    </div>
+    <div class="b">
+      <table class="details">
+        <tbody>
+          <tr>
+            <td colspan="2">${L["contact_dpet"]}
+          <tr>
+            <td colspan="2">${L["address"]}<br>${L["company-address"]}
+          <tr>
+            <th>${L["zip-code"]}
+            <td>518060
+          <tr>
+            <th>${L["tel"]}
+            <td>${L.telno}
+          <tr>
+            <th>${L["email"]}
+            <td>spatial@szu.edu.cn
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+</@body>
+
+<@footer />
+  

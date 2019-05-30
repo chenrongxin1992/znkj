@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>附件管理 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/tool.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/manage/style/attach.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/jquery.form.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/tool.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/manage/scripts/attach.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/lab_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="manage" class="col">实验室管理</a>&nbsp;&gt;&nbsp;<font>附件管理</font>
+				</div>
+				<div class="conten-body">
+					<div class="box add-box mt5">
+						<div class="ptb10 h30 ml15">
+							<form action="/add/uploadFile?type=attach" method="post" enctype="multipart/form-data" name="addform" class="addtable" id="addform">
+								<select class="normal-select select-type">
+									<option value="申请指南">申请指南</option>
+									<option value="申请书模板">申请书模板</option>
+									<option value="合同书">合同书</option>
+									<option value="进展报告模板">进展报告模板</option>
+									<option value="结题报告模板">结题报告模板</option>
+								</select>
+								<input type="file" name="upfile" id="file" />
+								<input type="button" class="normal-btn" id="upload" value="上传"/>
+							</form>
+						</div>
+						
+					</div>
+					<div class="table-wrap">
+						<table class="T-table">
+							<thead>
+								<tr>
+									<th style="width: 100px;"><div class="T-th-wrap">类型</div></th>
+									<th style="width: auto;"><div class="T-th-wrap">文件名</div></th>
+									<th style="width: 100px;"><div class="T-th-wrap">操作</div></th>
+								</tr>
+							</thead>
+							<tbody class="files-list">
+								<tr class="no-data"><td colspan="5"><div style="text-align:center">暂无数据</div></td></tr>
+								<!-- <tr>
+									<td class="T-td-center">申请指南</td>
+									<td><a href="#">深圳市科技创新委员会2015年第一批基础研究学科布局项目指南</a></td>
+									<td class="T-td-center"><a href="javascript:;" class="edit"><img class="editBtn" src="../../public/images/checksRewrite.png" title="编辑"></a></td>
+									<td class="T-td-center"><a href="javascript:;" data-id="" class="delete"><img width="16px" height="16px" style="border:0" src="../../public/images/checksDelete.png" title="删除"></a></td>
+								</tr> -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

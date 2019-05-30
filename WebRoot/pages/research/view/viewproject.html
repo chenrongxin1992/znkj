@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>科研项目 | 智能空间实验室</title>
+	<link href="/public/assets/common/style/common.css" rel="stylesheet" type="text/css" />
+	<link href="/public/assets/common/style/makeTable.css" rel="stylesheet" type="text/css" />
+	<script src="/public/assets/common/scripts/jquery.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/common/scripts/common.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="/public/assets/research/scripts/viewproject.js" type="text/javascript" charset="UTF-8"></script>
+
+</head>
+<body>
+	<#include "/pages/common/head.html" >
+	<div id="center">
+		<#include "/pages/common/manager_left.html" >
+			<div id="content">
+				<div id="cheader">当前位置：<a href="research" class="col">科研管理</a>&nbsp;&gt;&nbsp;<a href="/research/project" class="col">科研项目</a>&nbsp;&gt;&nbsp;<font>查看科研项目</font></div>
+				<div class="content-body">
+					<form action="#" method="post" name="addform" class="addtable">
+					<table>
+						<tbody>
+							<tr><td class="td_tex_right">名称：</td><td><span class="span-normal" id="name" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）名称：</td><td><span  class="span-normal" id="ename" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">负责人：</td><td><span class="span-normal" id="principal" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）负责人：</td><td><span  class="span-normal" id="eprincipal" ></span></td></tr>
+							<tr><td class="td_tex_right">参与人：</td><td><span class="span-normal" id="participant" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">（英文）参与人：</td><td><span class="span-normal" id="eparticipant" ></span></td></tr>
+							
+<!-- 							<tr><td class="td_tex_right">项目类别：</td><td><span class="span-normal" id="category" ></span></td></tr>
+							<tr><td class="td_tex_right" id="typetitle">项目类型：</td><td><span class="span-normal" id="type" ></span></td></tr> -->
+							<tr><td class="td_tex_right">年份：</td><td><span class="span-normal" id="year" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">经费来源：</td><td><span class="span-normal" id="fundsource" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）经费来源：</td><td><span class="span-normal" id="efundsource" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">金额（万元）：</td><td><span class="span-normal" id="money" ></span></td></tr>
+							
+							<tr><td class="td_tex_right">（开始）研究时间：</td><td><span class="span-normal" id="restimebegin" ></span></td></tr>
+							<tr><td class="td_tex_right">（结束）研究时间：</td><td><span class="span-normal" id="restimeend" ></span></td></tr>
+							<tr><td class="td_tex_right">摘要：</td><td><span  class="span-normal" id="digest" ></span></td></tr>
+							<tr><td class="td_tex_right">（英文）摘要：</td><td><span  class="span-normal" id="edigest" ></span></td></tr>
+							<tr><td class="td_tex_right">成果：</td><td><span  class="span-normal" id="achieve" ></span></td></tr>
+						</tbody>
+					</table>
+					</form>
+					<div class="button-common">
+						<input type="button" class="btn normal-btn" id="close" value="关闭页面"/>
+					</div>
+				</div>
+				
+			<div class="clear"></div>
+			</div>
+			 
+			<div class="clear"></div>
+		</div>
+	<!-- 页脚 -->
+	<div class="clear"></div>
+	<#include "/pages/common/footer.html" >
+</body>
+</html>

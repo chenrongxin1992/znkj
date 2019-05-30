@@ -1,0 +1,32 @@
+
+<#include "/pages/common/common.ftl" >
+
+<#assign nav_index = "research" sub_index=1>
+
+<@header title='${L["research"]} | ${L["site-title"]}' nav_index=nav_index sub_index=sub_index>
+<link href="/public/assets/index/style/index.css" rel="stylesheet" />
+
+<script src="/public/assets/common/scripts/header.js"></script>
+<script src="/public/assets/common/scripts/jquery.simplePagination.js"></script>
+<script src="/public/assets/index/scripts/projects.js"></script>
+</@header>
+
+<@body has_nav=true nav_index=nav_index sub_index=sub_index>
+	<div id="pro-table" class="table-wrap">
+		<div class="tabs clearfix" id="tabs">
+			<div>${L["project-status"]}</div>
+      <ul class="tabs-list">
+        <li><a index="all">${L["all"]}
+        </a><li><span>|
+        </span><li><a index="processing">${L["researching"]}
+        </a><li><span>|
+        </span><li><a index="concluding">${L["concluding"]}</a>
+      </ul>
+		</div>
+    <ul class="tab-main">
+    </ul>
+	</div>
+</@body>
+
+<@footer />
+  
